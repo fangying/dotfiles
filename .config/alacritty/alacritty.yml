@@ -1,0 +1,68 @@
+font:
+  normal:
+    family: "CaskaydiaCove Nerd Font"
+
+  bold:
+    family: "CaskaydiaCove Nerd Font"
+    style: Bold
+
+  italic:
+    family: "CaskaydiaCove Nerd Font"
+    style: Italic
+
+  bold_italic:
+    family: "CaskaydiaCove Nerd Font"
+    style: Bold Italic
+
+  size: 18
+
+# Colors (Ayu Dark)
+colors:
+  # Default colors
+  primary:
+    background: '0x0f1419'
+    foreground: '0xe6e1cf'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xf34a4a'
+    green:   '0xbae67e'
+    yellow:  '0xffee99'
+    blue:    '0x73d0ff'
+    magenta: '0xd4bfff'
+    cyan:    '0x83CEC6'
+    white:   '0xf2f2f2'
+
+  # Bright colors
+  bright:
+    black:   '0x737d87'
+    red:     '0xff3333'
+    green:   '0xc2d94c'
+    yellow:  '0xe7c547'
+    blue:    '0x59c2ff'
+    magenta: '0xb77ee0'
+    cyan:    '0x5ccfe6'
+    white:   '0xffffff'
+
+key_bindings:
+
+  - { key: Comma,     mods: Command,      command:
+      {program: "sh", args: ["-c","open ~/.config/alacritty/alacritty.yml"]}    }
+  - { key: N,         mods: Command,      action: SpawnNewInstance       }
+  - { key: Space,     mods: Alt,          chars: " "                     }
+  - { key: Back, mods: Super, chars: "\x15" } # delete word/line
+  - { key: Left,     mods: Alt,     chars: "\x1bb"                       } # one word left
+  - { key: Right,    mods: Alt,     chars: "\x1bf"                       } # one word right
+  - { key: Left,     mods: Command, chars: "\x1bOH",   mode: AppCursor   } # Home
+  - { key: Right,    mods: Command, chars: "\x1bOF",   mode: AppCursor   } # End
+  - { key: Key1,      mods: Alt,       chars: "\x1b1"                       }
+  - { key: Key2,      mods: Alt,       chars: "\x1b2"                       }
+  - { key: Key3,      mods: Alt,       chars: "\x1b3"                       }
+  - { key: Key4,      mods: Alt,       chars: "\x1b4"                       }
+  - { key: Key5,      mods: Alt,       chars: "\x1b5"                       }
+  - { key: Key6,      mods: Alt,       chars: "\x1b6"                       }
+  - { key: Key7,      mods: Alt,       chars: "\x1b7"                       }
+  - { key: Key8,      mods: Alt,       chars: "\x1b8"                       }
+  - { key: Key9,      mods: Alt,       chars: "\x1b9"                       }
+  - { key: Key0,      mods: Alt,       chars: "\x1b0"                       }
