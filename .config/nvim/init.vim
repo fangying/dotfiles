@@ -321,6 +321,10 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 nnoremap <leader>e :NERDTreeToggle<CR> " Shortcut for nerdtree
 
+" Enable autopairs by default
+lua << EOF
+require("nvim-autopairs").setup {}
+EOF
 
 " space-vim-theme
 colorscheme space_vim_theme
