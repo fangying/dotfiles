@@ -1,8 +1,8 @@
 {
 	"coc.preferences.formatOnSaveFiletypes": [
-		"rust"
-	],
-	"diagnostic.errorSign": "✘",
+		"rust",
+		"go"
+	], "diagnostic.errorSign": "✘",
 	"diagnostic.infoSign": "i",
 	"languageserver": {
 		"rust": {
@@ -28,5 +28,9 @@
 				"usePlaceholders": true
 			}
 		}
+	},
+	"go.goplsOptions": {
+		"completeUnimported": true,
+		"staticcheck": true
 	}
 }
