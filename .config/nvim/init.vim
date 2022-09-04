@@ -39,7 +39,7 @@ Plug 'mbriggs/mark.vim'
 " trailing whitespace highlight
 Plug 'bronson/vim-trailing-whitespace'
 " multipule line comment
-Plug 'scrooloose/nerdcommenter'
+Plug 'preservim/nerdcommenter'
 
 " nerdtree
 Plug 'preservim/nerdtree'
