@@ -8,6 +8,7 @@ call plug#begin(stdpath('data') . '/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/coc-json'
+Plug 'honza/vim-snippets'
 
 " fuzzy finder
 Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
