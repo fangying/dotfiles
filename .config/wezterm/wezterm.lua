@@ -13,6 +13,8 @@ local config = {
     font = wezterm.font_with_fallback { 'Hack Nerd Font Mono', 'SFMono Nerd Font'},
     font_size = 17.0,
     launch_menu = {},
+	initial_cols = 120,
+	initial_rows = 36,
     leader = { key="a", mods="CTRL" },
     disable_default_key_bindings = false,
     keys = {
