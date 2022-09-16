@@ -49,6 +49,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'liuchengxu/space-vim-theme'
 Plug 'altercation/vim-colors-solarized'
 Plug 'crusoexia/vim-monokai'
+Plug 'arzg/vim-colors-xcode'          " xcode colorschemes
 Plug 'flazz/vim-colorschemes'         " vim colorschemes
 Plug 'rafi/awesome-vim-colorschemes'  " vim colorschemes
 Plug 'lifepillar/vim-solarized8'      " solarized8
@@ -347,5 +348,5 @@ EOF
 
 " space-vim-theme
 colorscheme space_vim_theme
-
 hi Comment guifg=#5C6370 ctermfg=59
+colorscheme xcodedarkhc
