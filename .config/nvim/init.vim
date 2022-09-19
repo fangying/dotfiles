@@ -104,6 +104,10 @@ nnoremap <silent> ]<Space> :<C-U>call <SID>BlankDown(1)<CR>
 
 " Plugins Customized
 
+lua << EOF
+	require("nvim-autopairs").setup {}
+EOF
+
 " coc.vim
 set updatetime=300
 set shortmess+=c
