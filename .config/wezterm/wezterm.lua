@@ -3,20 +3,23 @@ local wezterm = require("wezterm")
 local config = {
     check_for_updates = false,
     -- color_scheme = "Catppuccin Mocha",
-	color_scheme = "Tango (terminal.sexy)",
+	-- color_scheme = "Tango (terminal.sexy)",
+	-- color_scheme = "Github Dark",
+	color_scheme = "Dark Pastel",
     inactive_pane_hsb = {
         hue = 1.0,
         saturation = 1.0,
         brightness = 1.0,
     },
     default_prog = { '/bin/zsh', '-l' },
-    font = wezterm.font_with_fallback { 'Hack Nerd Font Mono', 'SFMono Nerd Font'},
-    font_size = 17.0,
+    font = wezterm.font_with_fallback { 'Roboto Mono', 'Hack Nerd Font', 'SFMono Nerd Font'},
+    font_size = 18.0,
     launch_menu = {},
 	initial_cols = 120,
 	initial_rows = 36,
     leader = { key="a", mods="CTRL" },
     disable_default_key_bindings = false,
+	enable_scroll_bar = true,
     keys = {
         -- Send "CTRL-A" to the terminal when pressing CTRL-A, CTRL-A
         { key = "a", mods = "LEADER|CTRL",  action=wezterm.action{SendString="\x01"}},
