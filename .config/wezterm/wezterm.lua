@@ -2,11 +2,11 @@ local wezterm = require("wezterm")
 
 -- https://github.com/yutkat/dotfiles/blob/main/.config/wezterm/wezterm.lua
 local config = {
-    check_for_updates = false,
+    check_for_updates = true,
     -- color_scheme = "Catppuccin Mocha",
-	-- color_scheme = "Tango (terminal.sexy)",
+	color_scheme = "Tango (terminal.sexy)",
 	-- color_scheme = "Github Dark",
-	color_scheme = "Dark Pastel",
+	-- color_scheme = "Dark Pastel",
 	-- color_scheme = "Sakura",
     inactive_pane_hsb = {
         hue = 1.0,
@@ -14,8 +14,9 @@ local config = {
         brightness = 1.0,
     },
     default_prog = { '/bin/zsh', '-l' },
-    font = wezterm.font_with_fallback { 'Roboto Mono', 'Hack Nerd Font', 'SFMono Nerd Font'},
-    font_size = 18.0,
+    -- font = wezterm.font_with_fallback { { family = 'Roboto Mono', italic = false}, 'SFMono Nerd Font', 'Hack Nerd Font'},
+	font = wezterm.font('Roboto Mono', {italic = false}),
+    font_size = 17.0,
     launch_menu = {},
 	initial_cols = 120,
 	initial_rows = 36,
