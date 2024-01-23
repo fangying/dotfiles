@@ -21,6 +21,7 @@ Plug 'liuchengxu/vista.vim'
 Plug 'easymotion/vim-easymotion'
 
 " status bar
+Plug 'projekt0n/github-nvim-theme'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -338,7 +339,9 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 nnoremap <leader>e :NERDTreeToggle<CR> " Shortcut for nerdtree
 
+
 " space-vim-theme
-colorscheme space_vim_theme
+" colorscheme xcodedarkhc
+" colorscheme space_vim_theme
+colorscheme github_dark_default
 hi Comment guifg=#5C6370 ctermfg=59
-colorscheme xcodedarkhc
