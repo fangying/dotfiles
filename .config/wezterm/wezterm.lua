@@ -16,7 +16,7 @@ local config = {
     default_prog = { '/bin/zsh', '-l' },
     -- font = wezterm.font_with_fallback { { family = 'Roboto Mono', italic = false}, 'SFMono Nerd Font', 'Hack Nerd Font'},
 	font = wezterm.font('Roboto Mono', {italic = false}),
-    font_size = 17.0,
+    font_size = 18.0,
     launch_menu = {},
 	initial_cols = 120,
 	initial_rows = 36,
@@ -54,6 +54,16 @@ local config = {
         { key = "c", mods="SHIFT|CTRL",     action=wezterm.action{CopyTo = "Clipboard"}},
     },
     set_environment_variables = {},
+
+	-- customize
+	use_fancy_tab_bar = false,
+	hide_tab_bar_if_only_one_tab = true,
+	window_decorations = "RESIZE",
+	show_new_tab_button_in_tab_bar = false,
+	window_background_opacity = 0.9,
+	macos_window_background_blur = 70,
+	text_background_opacity = 0.9,
+	adjust_window_size_when_changing_font_size = false,
 }
 
 return config
