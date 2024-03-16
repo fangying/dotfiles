@@ -36,6 +36,7 @@ Plug 'Yggdroot/indentLine'
 
 " word marks
 Plug 'mbriggs/mark.vim'
+Plug 'azabiong/vim-highlighter'
 
 " trailing whitespace highlight
 Plug 'bronson/vim-trailing-whitespace'
